@@ -1,8 +1,8 @@
-package main.java.com.mkaloshyn.myPostsApp.controller;
+package main.java.com.mkaloshyn.my_posts_app.controller;
 
-import main.java.com.mkaloshyn.myPostsApp.model.Post;
-import main.java.com.mkaloshyn.myPostsApp.repository.PostRepository;
-import main.java.com.mkaloshyn.myPostsApp.repository.csv.CsvPostRepositoryImpl;
+import main.java.com.mkaloshyn.my_posts_app.model.Post;
+import main.java.com.mkaloshyn.my_posts_app.repository.PostRepository;
+import main.java.com.mkaloshyn.my_posts_app.repository.csv.CsvPostRepositoryImpl;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package main.java.com.mkaloshyn.myPostsApp.repository.csv;
+package main.java.com.mkaloshyn.my_posts_app.repository.csv;
 
-import main.java.com.mkaloshyn.myPostsApp.model.*;
+import main.java.com.mkaloshyn.my_posts_app.model.*;
 
 import java.io.*;
 import java.time.LocalDateTime;

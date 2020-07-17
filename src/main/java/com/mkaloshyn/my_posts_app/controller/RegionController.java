@@ -1,8 +1,8 @@
-package main.java.com.mkaloshyn.myPostsApp.controller;
+package main.java.com.mkaloshyn.my_posts_app.controller;
 
-import main.java.com.mkaloshyn.myPostsApp.model.Region;
-import main.java.com.mkaloshyn.myPostsApp.repository.RegionRepository;
-import main.java.com.mkaloshyn.myPostsApp.repository.csv.CsvRegionRepositoryImpl;
+import main.java.com.mkaloshyn.my_posts_app.model.Region;
+import main.java.com.mkaloshyn.my_posts_app.repository.RegionRepository;
+import main.java.com.mkaloshyn.my_posts_app.repository.csv.CsvRegionRepositoryImpl;
 
 import java.util.List;
 

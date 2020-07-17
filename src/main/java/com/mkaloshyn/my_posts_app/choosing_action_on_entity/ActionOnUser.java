@@ -1,35 +1,34 @@
-package main.java.com.mkaloshyn.myPostsApp;
+package main.java.com.mkaloshyn.my_posts_app.choosing_action_on_entity;
 
-import main.java.com.mkaloshyn.myPostsApp.view.PostView;
+import main.java.com.mkaloshyn.my_posts_app.view.UserView;
 
 import java.util.Scanner;
 
-public class ActionOnPost extends DoingActionOnEntity {
+public class ActionOnUser extends DoingActionOnEntity {
 
-    private PostView postView = new PostView(getScanner());
+    private UserView userView = new UserView(getScanner());
 
-    public ActionOnPost(Scanner scanner) {
+    public ActionOnUser(Scanner scanner) {
         super(scanner);
     }
 
     @Override
     public void implementNeededAction(int choice) {
-
         switch (choice) {
             case 1:
-                postView.getById();
+                userView.getById();
                 break;
             case 2:
-                postView.getAll();
+                userView.getAll();
                 break;
             case 3:
-                postView.save();
+                userView.save();
                 break;
             case 4:
-                postView.update();
+                userView.update();
                 break;
             case 5:
-                postView.deleteById();
+                userView.deleteById();
                 break;
             case 6:
                 break;

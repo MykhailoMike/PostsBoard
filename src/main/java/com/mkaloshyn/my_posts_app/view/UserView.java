@@ -1,14 +1,14 @@
-package main.java.com.mkaloshyn.myPostsApp.view;
+package main.java.com.mkaloshyn.my_posts_app.view;
 
-import main.java.com.mkaloshyn.myPostsApp.controller.UserController;
-import main.java.com.mkaloshyn.myPostsApp.model.Role;
-import main.java.com.mkaloshyn.myPostsApp.model.User;
+import main.java.com.mkaloshyn.my_posts_app.controller.UserController;
+import main.java.com.mkaloshyn.my_posts_app.model.Role;
+import main.java.com.mkaloshyn.my_posts_app.model.User;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import static main.java.com.mkaloshyn.myPostsApp.view.ViewUtil.*;
+import static main.java.com.mkaloshyn.my_posts_app.view.ViewUtil.*;
 
 public class UserView {
 

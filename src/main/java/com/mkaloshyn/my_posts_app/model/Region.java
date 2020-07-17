@@ -1,4 +1,4 @@
-package main.java.com.mkaloshyn.myPostsApp.model;
+package main.java.com.mkaloshyn.my_posts_app.model;
 
 public class Region extends BasicEntry {
 

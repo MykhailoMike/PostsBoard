@@ -1,9 +1,9 @@
-package main.java.com.mkaloshyn.myPostsApp.repository.csv;
+package main.java.com.mkaloshyn.my_posts_app.repository.csv;
 
-import main.java.com.mkaloshyn.myPostsApp.model.Post;
-import main.java.com.mkaloshyn.myPostsApp.model.Role;
-import main.java.com.mkaloshyn.myPostsApp.model.User;
-import main.java.com.mkaloshyn.myPostsApp.repository.UserRepository;
+import main.java.com.mkaloshyn.my_posts_app.model.Post;
+import main.java.com.mkaloshyn.my_posts_app.model.Role;
+import main.java.com.mkaloshyn.my_posts_app.model.User;
+import main.java.com.mkaloshyn.my_posts_app.repository.UserRepository;
 
 import java.io.*;
 import java.util.ArrayList;

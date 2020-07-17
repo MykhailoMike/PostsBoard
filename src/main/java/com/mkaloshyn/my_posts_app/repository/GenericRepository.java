@@ -1,4 +1,4 @@
-package main.java.com.mkaloshyn.myPostsApp.repository;
+package main.java.com.mkaloshyn.my_posts_app.repository;
 
 import java.util.List;
 

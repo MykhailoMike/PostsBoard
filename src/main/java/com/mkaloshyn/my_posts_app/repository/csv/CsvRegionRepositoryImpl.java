@@ -1,7 +1,7 @@
-package main.java.com.mkaloshyn.myPostsApp.repository.csv;
+package main.java.com.mkaloshyn.my_posts_app.repository.csv;
 
-import main.java.com.mkaloshyn.myPostsApp.model.Region;
-import main.java.com.mkaloshyn.myPostsApp.repository.RegionRepository;
+import main.java.com.mkaloshyn.my_posts_app.model.Region;
+import main.java.com.mkaloshyn.my_posts_app.repository.RegionRepository;
 
 import java.io.*;
 import java.util.ArrayList;

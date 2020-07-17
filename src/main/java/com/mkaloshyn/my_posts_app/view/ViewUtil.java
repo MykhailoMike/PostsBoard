@@ -1,4 +1,4 @@
-package main.java.com.mkaloshyn.myPostsApp.view;
+package main.java.com.mkaloshyn.my_posts_app.view;
 
 public class ViewUtil {
 

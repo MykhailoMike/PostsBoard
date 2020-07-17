@@ -1,12 +1,12 @@
-package main.java.com.mkaloshyn.myPostsApp.view;
+package main.java.com.mkaloshyn.my_posts_app.view;
 
-import main.java.com.mkaloshyn.myPostsApp.controller.RegionController;
-import main.java.com.mkaloshyn.myPostsApp.model.Region;
+import main.java.com.mkaloshyn.my_posts_app.controller.RegionController;
+import main.java.com.mkaloshyn.my_posts_app.model.Region;
 
 import java.util.List;
 import java.util.Scanner;
 
-import static main.java.com.mkaloshyn.myPostsApp.view.ViewUtil.*;
+import static main.java.com.mkaloshyn.my_posts_app.view.ViewUtil.*;
 
 public class RegionView {
 

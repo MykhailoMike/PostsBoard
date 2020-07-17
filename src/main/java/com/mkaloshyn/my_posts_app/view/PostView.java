@@ -1,15 +1,15 @@
-package main.java.com.mkaloshyn.myPostsApp.view;
+package main.java.com.mkaloshyn.my_posts_app.view;
 
-import main.java.com.mkaloshyn.myPostsApp.controller.PostController;
-import main.java.com.mkaloshyn.myPostsApp.controller.RegionController;
-import main.java.com.mkaloshyn.myPostsApp.controller.UserController;
-import main.java.com.mkaloshyn.myPostsApp.model.Post;
+import main.java.com.mkaloshyn.my_posts_app.controller.PostController;
+import main.java.com.mkaloshyn.my_posts_app.controller.RegionController;
+import main.java.com.mkaloshyn.my_posts_app.controller.UserController;
+import main.java.com.mkaloshyn.my_posts_app.model.Post;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Scanner;
 
-import static main.java.com.mkaloshyn.myPostsApp.view.ViewUtil.*;
+import static main.java.com.mkaloshyn.my_posts_app.view.ViewUtil.*;
 
 public class PostView {
 

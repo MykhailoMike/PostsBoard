@@ -1,4 +1,4 @@
-package main.java.com.mkaloshyn.myPostsApp;
+package main.java.com.mkaloshyn.my_posts_app.choosing_action_on_entity;
 
 import java.util.Scanner;
 

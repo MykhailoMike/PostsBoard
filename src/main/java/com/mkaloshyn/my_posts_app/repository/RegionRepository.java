@@ -1,6 +1,6 @@
-package main.java.com.mkaloshyn.myPostsApp.repository;
+package main.java.com.mkaloshyn.my_posts_app.repository;
 
-import main.java.com.mkaloshyn.myPostsApp.model.Region;
+import main.java.com.mkaloshyn.my_posts_app.model.Region;
 
 public interface RegionRepository extends GenericRepository<Region, Long> {
 

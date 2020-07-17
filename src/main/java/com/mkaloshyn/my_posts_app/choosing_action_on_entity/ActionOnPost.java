@@ -1,14 +1,14 @@
-package main.java.com.mkaloshyn.myPostsApp;
+package main.java.com.mkaloshyn.my_posts_app.choosing_action_on_entity;
 
-import main.java.com.mkaloshyn.myPostsApp.view.RegionView;
+import main.java.com.mkaloshyn.my_posts_app.view.PostView;
 
 import java.util.Scanner;
 
-public class ActionOnRegion extends DoingActionOnEntity {
+public class ActionOnPost extends DoingActionOnEntity {
 
-    private RegionView regionView = new RegionView(getScanner());
+    private PostView postView = new PostView(getScanner());
 
-    public ActionOnRegion(Scanner scanner) {
+    public ActionOnPost(Scanner scanner) {
         super(scanner);
     }
 
@@ -17,25 +17,24 @@ public class ActionOnRegion extends DoingActionOnEntity {
 
         switch (choice) {
             case 1:
-                regionView.getById();
+                postView.getById();
                 break;
             case 2:
-                regionView.getAll();
+                postView.getAll();
                 break;
             case 3:
-                regionView.save();
+                postView.save();
                 break;
             case 4:
-                regionView.update();
+                postView.update();
                 break;
             case 5:
-                regionView.deleteById();
+                postView.deleteById();
                 break;
             case 6:
                 break;
             default:
                 System.out.println("Please choose in range 1 to 6 strictly");
         }
-
     }
 }
